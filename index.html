@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delish Dine Restaurant</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f3ef;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #b33c00;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-style: italic;
+      color: #ffe6cc;
+      margin-top: 0;
+    }
+
+    hr {
+      width: 70%;
+      border: 1px solid #fff;
+    }
+
+    blockquote {
+      color: #fff2e6;
+      font-size: 16px;
+      margin: 10px auto;
+      width: 60%;
+    }
+
+    /* Table Styling */
+    table {
+      width: 70%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #fff;
+    }
+
+    th, td {
+      border: 1px solid #b33c00;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ffcc99;
+    }
+
+    /* Offers/Services */
+    section.offers {
+      background-color: #fffaf2;
+      width: 70%;
+      margin: 20px auto;
+      padding: 15px;
+      border-left: 5px solid #b33c00;
+    }
+
+    section.offers h3 {
+      color: #b33c00;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: square;
+      line-height: 1.8;
+    }
+
+    /* Contact Section */
+    section.contact {
+      background-color: #ffebd9;
+      width: 70%;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    input, textarea {
+      padding: 8px;
+      border: 1px solid #b33c00;
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    button {
+      background-color: #b33c00;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e65c00;
+    }
+
+    a {
+      color: #b33c00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #e65c00;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #b33c00;
+      color: white;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Task 1: Page Setup -->
+  <header>
+    <h1>Delish Dine Restaurant</h1>
+    <h2>"Taste that touches your heart"</h2>
+    <hr>
+    <blockquote>Welcome to Delish Dine — where every meal is crafted with love, flavor, and freshness. We serve happiness in every bite!</blockquote>
+  </header>
+
+  <!-- Task 2: Menu Section -->
+  <section>
+    <h2 style="text-align:center; color:#b33c00;">Our Menu</h2>
+    <table>
+      <tr>
+        <th>Dish Name</th>
+        <th>Type</th>
+        <th>Price</th>
+      </tr>
+      <tr><td>Chicken Alfredo Pasta</td><td>Main</td><td>Rs. 850</td></tr>
+      <tr><td>Caesar Salad</td><td>Starter</td><td>Rs. 450</td></tr>
+      <tr><td>Grilled Fish</td><td>Main</td><td>Rs. 950</td></tr>
+      <tr><td>Chocolate Lava Cake</td><td>Dessert</td><td>Rs. 550</td></tr>
+      <tr><td>French Fries</td><td>Starter</td><td>Rs. 300</td></tr>
+    </table>
+  </section>
+
+  <!-- Task 3: Offers or Services -->
+  <section class="offers">
+    <h3>Our Special Offers</h3>
+    <ul>
+      <li>Buy One Get One Free on Weekends</li>
+      <li>Free Dessert with Family Combo</li>
+      <li>20% Discount for Students</li>
+      <li>Home Delivery Available</li>
+    </ul>
+  </section>
+
+  <!-- Task 4: Contact Section -->
+  <section class="contact">
+    <h3 style="text-align:center;">Contact Us</h3>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Your message here..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+  
+
+</body>
+</html>
